@@ -5,5 +5,3 @@ COUNT(DISTINCT al.album_id) AS `albuns`
 FROM SpotifyClone.cancoes AS c
 INNER JOIN SpotifyClone.artistas AS ar
 INNER JOIN SpotifyClone.albuns AS al;
-
-SELECT * FROM estatisticas_musicais;
